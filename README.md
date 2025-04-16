@@ -22,4 +22,4 @@ This configuration file is required for the proper operation of the Peertube Run
 
 This documentation format follows the standards used in library Docker container documentation to ensure clear and concise information for users.
 
-For any questions or further setup instructions, please refer to the official documentation of [Peertube Runner](https://github.com/peertube/peertube-runner) or contact support.
+For any questions or further setup instructions, please refer to the official documentation of [Peertube Runner](https://docs.joinpeertube.org/maintain/tools#peertube-runner) or contact support.
