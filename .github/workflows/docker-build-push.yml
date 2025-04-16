@@ -29,10 +29,9 @@ jobs:
         with:
           images: danny900714/peertube-runner
           tags: |
-            {{ version.major }}
-            {{ version.major }}.{{ version.minor }}
-            {{ version.full }}
-            latest
+            type=semver,pattern={{version}}
+            type=semver,pattern={{major}}.{{minor}}
+            type=semver,pattern={{major}}
 
       - name: Build and push Docker image
         uses: docker/build-push-action@v6
